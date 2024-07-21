@@ -3,10 +3,18 @@
      Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
      (Ten en cuenta que cada lenguaje puede poseer unos diferentes) */
 
-// Assignment
+// ASSIGMENT OPERATORS
 var a = 10;
 console.log(a);
 
+var aa = 1;
+var bb = 2;
+console.log(aa+=bb);
+console.log(aa);
+/* It can be done with addition, subtraction, multiplication. division, remainder
+exponentiation */
+
+//ARITHMETIC OPERATORS
 //Addition
 var b = 1;
 var c = a+b;
@@ -35,9 +43,118 @@ console.log(h);
 //Increment
 var i = a++
 console.log(i);
+var j = ++a;
+console.log(j);
 
 //Decrement
-var j = b--;
+var k = b--;
+console.log(k);
+var l = --b;
+console.log(l);
+
+
+//COMPARASION
+//Equal
+var aaa = 1;
+var aaaa = '1';
+console.log(aaa==aaaa);
+
+//Not equal
+console.log(aaa!=aaaa);
+
+//Strict equal
+console.log(aaa===aaaa);
+
+//strict not equal
+console.log(aaa!==aaaa);
+
+//Greater than
+console.log(a > b);
+
+//Greater than or equal
+console.log(a >= b);
+
+//Less than
+console.log(a < b);
+
+//Less than or equal
+console.log(a <= b);
+
+
+//LOGICAL OPERATORS
+//And
+var n = aaa < aaaa 
+var p == aaa < b;
+console.log(n && p);
+
+//Or
+console.log(n || p);
+
+//Nullish coalescing
+console.log(null ?? p);
+console.log(p ?? null);
+
+//Not
+console.log(!(a==a));
+
+//BIGINT
+// Most of the operators in arithmetic operators can be used here
+
+//STRING
+var ca = 'my';
+var co = 'self';
+console.log(ca+co);
+console.log(ca+='you');
+
+//CONDITIONAL(TERNARY)
+var age1 = 12;
+var age2 = 32;
+var es = age1 >= 18 ? 'adult' : 'minor';
+var ess = age2 >= 18 ? 'agult' : 'minor';
+console.log(age1,age2);
+
+//COMMA
+//evaluates each of tis operads and returns the value of the last operand
+// it is common in for loops
+var x = 1;
+x = (x++,x);
+console.log(x);
+
+
+//UNARY
+//Delete
+const myObj = {h:4};
+delete myObj.h;
+
+//Deleting array elements
+var asas = ['angel', 'clown', 'drum', 'mandarin', 'sturgeon'];
+var asss = asas.splice(3,1);
+console.log(asss);
+
+//Typeof
+console.log(typeof asas);
+
+//RELATIONAL OPERATORS
+//In
+const trees = ['redwood', 'bay', 'cedar', 'oak', 'maple'];
+console.log( 0 in trees);
+console.log('bay' in trees);
+/* you must specify the index number not the value */
+
+console.log('length' in trees);
+// length is an array property for thar reason returns true
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
