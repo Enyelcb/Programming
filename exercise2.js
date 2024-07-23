@@ -189,7 +189,7 @@ var ta = 'California';
 switch(ta){
      case 'New York':
           console.log('Welcome to New York');
-          break;          
+          break;           
      case 'Maine':
           console.log('Are you sure that you like Maine');
           break;
@@ -201,6 +201,54 @@ switch(ta){
 }
 
 
+//LOOPS
+//For
+var food = ['chicken','coffe', 'grapes', 'apples', 'te', 'soda'];
+for(let a = 0, a < food.length, a++){
+     console.log(`i love this food: ${a}`);
+}
+
+//Do...while
+var kk = 0;
+do{
+     kk += 1;
+     console.log(`this is the amount of food i like ${food[kk+1]} and is ${kk}`);
+}while( kk < 4);
+
+//While
+qq = 0;
+while(qq < 5){
+     qq++;
+     console.log(qq);
+}
+
+
+//BREAK
+var countries = ['canada', 'colombia', ' venezuela', 'mexico', 'honduras', 'france', 'spain'];
+for(let i = 0, i < countries.length, i++){
+     console.log(`me gusta: ${countries}`);
+     if (countries[i] === 'france'){
+          break;
+     }
+}
+
+var zz = 0;
+whereILive: while(countries !== 'colombia'){
+     console.log(`${countries[zz] this is not your country`);
+     zz++;
+     if(countries === 'colombia'){
+          for(let xx=0, xx <= ee.length, xx++){
+               let ee= [0,1,2,3,4,5,6,7,8,9];
+              console.log(`this is not your department ${ee[xx]}`);
+              if (countries === 'colombia' && 
+          
+              
+               let departament = ['atlantico', 'amazonas', 'cundinamarca', 'boyaca', 'cecsar', 'antioquia', 'choco', 'valle'];
+
+
+
+
+//CONTINUE
 
 
 
