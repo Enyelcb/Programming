@@ -144,23 +144,12 @@ console.log('bay' in trees);
 console.log('length' in trees);
 // length is an array property for thar reason returns true
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Instanceof
+//Use instanceof when you need to confirm the type of an object at runtime.
+const theDay = new Date(1995, 12, 17);
+if (theDay instanceof Date) {
+  console.log('hey');
+}
 
 
  /* Utilizando las operaciones con operadores que tú quieras, crea ejemplos
@@ -168,6 +157,53 @@ console.log('length' in trees);
   en tu lenguaje:
     Condicionales, iterativas, excepciones...
   Debes hacer print por consola del resultado de todos los ejemplos. */
+
+//CONDITIONAL STATEMENTS
+//If
+var ti = 12;
+if (ti > 1){
+     console.log('the value is too big');
+}
+
+//If else
+var arrived = 12;
+var time = 13;
+if(arrive === time){
+     console.log('congratulation, you are a job employer');
+}else{
+     console.log('Im sorry you are fired')
+}
+
+//Else if
+var ca = 14;
+if(arrived === time){
+     console.log('congratulations, you are doing great');
+}else if(arrived === ca){
+     console.log('it is ok, the next time, you must to arrive on time');
+}else{
+     console.log('it is not acceptable, you are fire');
+}
+
+//Switch
+var ta = 'California';
+switch(ta){
+     case 'New York':
+          console.log('Welcome to New York');
+          break;          
+     case 'Maine':
+          console.log('Are you sure that you like Maine');
+          break;
+     case 'California':
+          console.log('California is the best option, you will enjoy it');
+          break;
+     default:
+          console.log('There are not more options, check your answer please');
+}
+
+
+
+
+
 
  //DIFICULTAD EXTRA (opcional):
  /* Crea un programa que imprima por consola todos los números comprendidos
