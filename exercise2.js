@@ -233,20 +233,20 @@ for(let i = 0, i < countries.length, i++){
 }
 
 var zz = 0;
-whereILive: while(countries !== 'colombia'){
+whereILive: while(true){
      console.log(`${countries[zz] this is not your country`);
      zz++;
-     if(countries === 'colombia'){
-          for(let xx=0, xx <= ee.length, xx++){
-               let ee= [0,1,2,3,4,5,6,7,8,9];
+     for(let xx=0, xx <= ee.length, xx++){
+              let ee= [0,1,2,3,4,5,6,7,8,9];
               console.log(`this is not your department ${ee[xx]}`);
-              if (countries === 'colombia' && 
-          
-              
-               let departament = ['atlantico', 'amazonas', 'cundinamarca', 'boyaca', 'cecsar', 'antioquia', 'choco', 'valle'];
-
-
-
+              if (countries === 'colombia' && ee[8]{
+                console.log('we have found our goal');
+                break whereILive;
+              }else if(zz == countries.length){
+                break;
+              }
+      }
+}
 
 //CONTINUE
 
