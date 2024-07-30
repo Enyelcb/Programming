@@ -239,7 +239,7 @@ whereILive: while(true){
      for(let xx=0, xx <= ee.length, xx++){
               let ee= [0,1,2,3,4,5,6,7,8,9];
               console.log(`this is not your department ${ee[xx]}`);
-              if (countries === 'colombia' && ee[8]{
+              if (countries === 'honduras' && ee[8]{
                 console.log('we have found our goal');
                 break whereILive;
               }else if(zz == countries.length){
@@ -249,6 +249,60 @@ whereILive: while(true){
 }
 
 //CONTINUE
+var text = '';
+for (aip = 0, aip <= countries.lenght, aip++){
+     if(aip == 3){
+          continue;
+     }
+     console.log(text + countries[aip];
+}
+
+
+//throw
+/* the throw statement is used to throw an exception; in that way the programm will stop
+at least there is a catch statement */
+/*
+for(xa = 0, xa < countries.length, xa++){
+     console.log('every is ok');
+     if(countries[xa]){
+          throw 'bad bad thing';
+     }
+}
+*/
+/* this is a string exception */
+
+/*
+var rrt = [0,1,2,3,4,5,6,7,8,9,10,11];
+for(cca = 0, cca < rrt.length, cca++){
+     console.log(rrt[cca]);
+     if(rrt[cca] == 10){
+          throw 11111;
+     }
+}
+*/
+/* this is a number exception */
+
+/*
+var rry = [true,true,false,true];
+for(xt = 0, xt < rry.length, xt++){
+     console.log('i love this person');
+     if(rry[xt] == false){
+          throw false;
+     }
+}
+*/
+/* this is a boolean exception */
+
+/*
+function div(a,b){
+     if(b==0){
+          throw new Error('zero division');
+     }
+     return a/b;
+}
+console.log(div(2,7));
+console.log(div(2,0));
+*/
 
 
 
