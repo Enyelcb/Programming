@@ -304,6 +304,26 @@ console.log(div(2,7));
 console.log(div(2,0));
 */
 
+//try catch
+
+try{
+     theFunctionNoExist();
+}catch{
+     console.error(error)
+}
+
+function doIt{
+     try{
+          return 1;
+     }
+     finally{
+          return 2;
+     }
+}
+doIt();
+
+
+     
 
 
 
