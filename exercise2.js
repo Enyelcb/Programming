@@ -323,12 +323,20 @@ function doIt{
 doIt();
 
 
-     
-
-
-
- //DIFICULTAD EXTRA (opcional):
+//DIFICULTAD EXTRA (opcional):
  /* Crea un programa que imprima por consola todos los números comprendidos
  entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3. */
+
+
+for(cca=10, cca<=55, cca++){
+     if(cca%2==0){
+          if(cca==16 || cca%3==0){
+               continue;
+          }else{
+               console.log(cca)
+          }
+     }
+     continue;
+}
  
 //Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
