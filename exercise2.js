@@ -328,7 +328,7 @@ doIt();
  entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3. */
 
 
-for(cca=10, cca<=55, cca++){
+for(let cca=10, cca<=55, cca++){
      if(cca%2==0){
           if(cca==16 || cca%3==0){
                continue;
@@ -338,5 +338,10 @@ for(cca=10, cca<=55, cca++){
      }
      continue;
 }
- 
+
+for(let asa=10, asa<=55,asa++){
+     if(asa%2==0 && asa===16 || asa%3==0){
+          console.log(asa);
+     }
+}
 //Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
