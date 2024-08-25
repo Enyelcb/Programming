@@ -3,6 +3,26 @@
  # Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
  # (Ten en cuenta que cada lenguaje puede poseer unos diferentes)
 
+#ARITMETICOS
+a = 1
+b = 2
+c = a + b
+print(c)
+
+d = a - b
+print(d)
+
+e = a / b
+print(e)
+
+f = a % b
+print(f)
+
+g = a // b
+
+
+
+
  # Utilizando las operaciones con operadores que tú quieras, crea ejemplos
  # que representen todos los tipos de estructuras de control que existan
  # en tu lenguaje:
